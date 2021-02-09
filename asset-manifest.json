@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/yogatimer/static/css/main.2c23fdd6.chunk.css",
-    "main.js": "/yogatimer/static/js/main.2d32891d.chunk.js",
-    "main.js.map": "/yogatimer/static/js/main.2d32891d.chunk.js.map",
-    "runtime-main.js": "/yogatimer/static/js/runtime-main.9974d009.js",
-    "runtime-main.js.map": "/yogatimer/static/js/runtime-main.9974d009.js.map",
-    "static/js/2.3a245121.chunk.js": "/yogatimer/static/js/2.3a245121.chunk.js",
-    "static/js/2.3a245121.chunk.js.map": "/yogatimer/static/js/2.3a245121.chunk.js.map",
-    "index.html": "/yogatimer/index.html",
-    "static/css/main.2c23fdd6.chunk.css.map": "/yogatimer/static/css/main.2c23fdd6.chunk.css.map",
-    "static/js/2.3a245121.chunk.js.LICENSE.txt": "/yogatimer/static/js/2.3a245121.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/yogatimer/static/media/Poppins-Regular.8081832f.ttf",
-    "static/media/fabian-blank-pElSkGRA2NU-unsplash.a683aabc.jpg": "/yogatimer/static/media/fabian-blank-pElSkGRA2NU-unsplash.a683aabc.jpg",
-    "static/media/max-fGUmhLROnPc-unsplash.21e10ba6.jpg": "/yogatimer/static/media/max-fGUmhLROnPc-unsplash.21e10ba6.jpg",
-    "static/media/mixkit-happy-bell-alert-601.a921a9f2.wav": "/yogatimer/static/media/mixkit-happy-bell-alert-601.a921a9f2.wav"
+    "main.css": "/yoga-timer/static/css/main.dd924eed.chunk.css",
+    "main.js": "/yoga-timer/static/js/main.2d32891d.chunk.js",
+    "main.js.map": "/yoga-timer/static/js/main.2d32891d.chunk.js.map",
+    "runtime-main.js": "/yoga-timer/static/js/runtime-main.ac59de3e.js",
+    "runtime-main.js.map": "/yoga-timer/static/js/runtime-main.ac59de3e.js.map",
+    "static/js/2.3a245121.chunk.js": "/yoga-timer/static/js/2.3a245121.chunk.js",
+    "static/js/2.3a245121.chunk.js.map": "/yoga-timer/static/js/2.3a245121.chunk.js.map",
+    "index.html": "/yoga-timer/index.html",
+    "static/css/main.dd924eed.chunk.css.map": "/yoga-timer/static/css/main.dd924eed.chunk.css.map",
+    "static/js/2.3a245121.chunk.js.LICENSE.txt": "/yoga-timer/static/js/2.3a245121.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/yoga-timer/static/media/Poppins-Regular.8081832f.ttf",
+    "static/media/fabian-blank-pElSkGRA2NU-unsplash.a683aabc.jpg": "/yoga-timer/static/media/fabian-blank-pElSkGRA2NU-unsplash.a683aabc.jpg",
+    "static/media/max-fGUmhLROnPc-unsplash.21e10ba6.jpg": "/yoga-timer/static/media/max-fGUmhLROnPc-unsplash.21e10ba6.jpg",
+    "static/media/mixkit-happy-bell-alert-601.a921a9f2.wav": "/yoga-timer/static/media/mixkit-happy-bell-alert-601.a921a9f2.wav"
   },
   "entrypoints": [
-    "static/js/runtime-main.9974d009.js",
+    "static/js/runtime-main.ac59de3e.js",
     "static/js/2.3a245121.chunk.js",
-    "static/css/main.2c23fdd6.chunk.css",
+    "static/css/main.dd924eed.chunk.css",
     "static/js/main.2d32891d.chunk.js"
   ]
 }
