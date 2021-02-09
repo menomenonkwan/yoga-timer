@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/yoga-timer/static/css/main.dd924eed.chunk.css",
+    "main.js": "/yoga-timer/static/js/main.6c3bbbff.chunk.js",
+    "main.js.map": "/yoga-timer/static/js/main.6c3bbbff.chunk.js.map",
+    "runtime-main.js": "/yoga-timer/static/js/runtime-main.ac59de3e.js",
+    "runtime-main.js.map": "/yoga-timer/static/js/runtime-main.ac59de3e.js.map",
+    "static/js/2.3a245121.chunk.js": "/yoga-timer/static/js/2.3a245121.chunk.js",
+    "static/js/2.3a245121.chunk.js.map": "/yoga-timer/static/js/2.3a245121.chunk.js.map",
+    "index.html": "/yoga-timer/index.html",
+    "static/css/main.dd924eed.chunk.css.map": "/yoga-timer/static/css/main.dd924eed.chunk.css.map",
+    "static/js/2.3a245121.chunk.js.LICENSE.txt": "/yoga-timer/static/js/2.3a245121.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/yoga-timer/static/media/Poppins-Regular.8081832f.ttf",
+    "static/media/fabian-blank-pElSkGRA2NU-unsplash.a683aabc.jpg": "/yoga-timer/static/media/fabian-blank-pElSkGRA2NU-unsplash.a683aabc.jpg",
+    "static/media/max-fGUmhLROnPc-unsplash.21e10ba6.jpg": "/yoga-timer/static/media/max-fGUmhLROnPc-unsplash.21e10ba6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ac59de3e.js",
+    "static/js/2.3a245121.chunk.js",
+    "static/css/main.dd924eed.chunk.css",
+    "static/js/main.6c3bbbff.chunk.js"
+  ]
+}
