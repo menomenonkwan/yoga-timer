@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/yoga-timer/static/css/main.8e543ecf.chunk.css",
-    "main.js": "/yoga-timer/static/js/main.d17a121f.chunk.js",
-    "main.js.map": "/yoga-timer/static/js/main.d17a121f.chunk.js.map",
+    "main.js": "/yoga-timer/static/js/main.6ecae935.chunk.js",
+    "main.js.map": "/yoga-timer/static/js/main.6ecae935.chunk.js.map",
     "runtime-main.js": "/yoga-timer/static/js/runtime-main.ac59de3e.js",
     "runtime-main.js.map": "/yoga-timer/static/js/runtime-main.ac59de3e.js.map",
     "static/js/2.3a245121.chunk.js": "/yoga-timer/static/js/2.3a245121.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.ac59de3e.js",
     "static/js/2.3a245121.chunk.js",
     "static/css/main.8e543ecf.chunk.css",
-    "static/js/main.d17a121f.chunk.js"
+    "static/js/main.6ecae935.chunk.js"
   ]
 }
