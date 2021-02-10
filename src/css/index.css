@@ -75,6 +75,8 @@ h1 {
 
 .controls h1 {
   color: var(--tan);
+  flex: 1;
+  text-align: center;
 }
 
 .controls button {
