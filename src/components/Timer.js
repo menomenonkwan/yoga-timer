@@ -11,6 +11,7 @@ class Timer extends React.Component {
           <button onClick={this.props.startTimer} disabled={this.props.timerOn ? true : false }>start</button>
           <button onClick={this.props.resetTimer}>reset</button>
           <button onClick={this.props.stopTime}>stop</button>
+          <button onClick={this.props.newTime}>new</button>
         </div>
         :
         <div className="time-controls">
