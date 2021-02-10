@@ -7,7 +7,8 @@ const Start = (props) => {
 
   return (
     <div className="controls">
-        <h1>{timer ? 'Cool Down...' : 'Welcome!'}</h1>      
+      <button onClick={props.newTime}>new</button>
+      <h1>{timer ? 'Cool Down...' : 'Welcome!'}</h1>      
     </div>
   );
 }
