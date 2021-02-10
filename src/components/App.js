@@ -73,7 +73,7 @@ class App extends Component {
 
       const poses = [ ...this.state.poses ];
       if(poses === undefined) { return; }
-        
+
       const current = poses[0];
       current.duration--;
       this.setState({
@@ -176,7 +176,7 @@ class App extends Component {
     clearInterval(this.timer);
     clearInterval(this.activeTimer);
     const time = this.state.time;
-    time.set = !time.set;
+    time.set = false;
     this.setState({ 
       time,
       timerOn: false,
@@ -189,6 +189,12 @@ class App extends Component {
         intervals: 1,
         completed: false,
       }],
+      intervalTotalTime: {
+        duration: 10,
+        hours: 0,
+        minutes: 0,
+        seconds: 10,
+      },      
     });  
   }
 
@@ -305,8 +311,25 @@ class App extends Component {
 
   componentDidMount() {
     document.addEventListener("keydown", this.KeyPressPause);
+    const localStorageRef = localStorage.getItem('program');
+    const lsOGProgram = localStorage.getItem('OGprogram');
+    if(localStorageRef) {
+      const program = JSON.parse(localStorageRef);
+      const originalProgram = JSON.parse(lsOGProgram);
+      const newTime = AddToTime(program);
+      this.setState({
+        poses: program,
+        OGposes: originalProgram,
+        intervalTotalTime: newTime,
+      })
+    }
   }
   
+  componentDidUpdate() {
+    localStorage.setItem('program', JSON.stringify(this.state.poses));
+    localStorage.setItem('OGprogram', JSON.stringify(this.state.OGposes));
+  }
+
   componentWillUnmount() {
     document.addEventListener("keydown", this.KeyPressPause);
   }
@@ -324,7 +347,10 @@ class App extends Component {
             pauseTimer={this.pauseTimer} 
           />
           :
-          <Start timerOn={this.state.timerOn}/>
+          <Start 
+            timerOn={this.state.timerOn} 
+            newTime={this.newTime}
+          />
         } 
         <div className="container">
           <div id="task-info">
@@ -336,9 +362,9 @@ class App extends Component {
                 resetTimer={this.resetTimer}
                 stopTime={this.stopTime}
                 newTime={this.newTime}
-              /> 
-              : 
-              <Time 
+                /> 
+                : 
+                <Time 
                 time={this.state.time} 
                 updateTime={this.updateTime}
                 setTime={this.setTime}
