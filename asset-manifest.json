@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/yoga-timer/static/css/main.dd924eed.chunk.css",
+    "main.css": "/yoga-timer/static/css/main.da31abb5.chunk.css",
     "main.js": "/yoga-timer/static/js/main.2d32891d.chunk.js",
     "main.js.map": "/yoga-timer/static/js/main.2d32891d.chunk.js.map",
     "runtime-main.js": "/yoga-timer/static/js/runtime-main.ac59de3e.js",
@@ -8,7 +8,7 @@
     "static/js/2.3a245121.chunk.js": "/yoga-timer/static/js/2.3a245121.chunk.js",
     "static/js/2.3a245121.chunk.js.map": "/yoga-timer/static/js/2.3a245121.chunk.js.map",
     "index.html": "/yoga-timer/index.html",
-    "static/css/main.dd924eed.chunk.css.map": "/yoga-timer/static/css/main.dd924eed.chunk.css.map",
+    "static/css/main.da31abb5.chunk.css.map": "/yoga-timer/static/css/main.da31abb5.chunk.css.map",
     "static/js/2.3a245121.chunk.js.LICENSE.txt": "/yoga-timer/static/js/2.3a245121.chunk.js.LICENSE.txt",
     "static/media/index.css": "/yoga-timer/static/media/Poppins-Regular.8081832f.ttf",
     "static/media/fabian-blank-pElSkGRA2NU-unsplash.a683aabc.jpg": "/yoga-timer/static/media/fabian-blank-pElSkGRA2NU-unsplash.a683aabc.jpg",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.ac59de3e.js",
     "static/js/2.3a245121.chunk.js",
-    "static/css/main.dd924eed.chunk.css",
+    "static/css/main.da31abb5.chunk.css",
     "static/js/main.2d32891d.chunk.js"
   ]
 }
