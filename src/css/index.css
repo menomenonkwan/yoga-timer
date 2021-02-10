@@ -258,6 +258,7 @@ form button:hover,
 
 .entered-duration input {
   width: 100%;
+  min-width: 33%;
   border: 2px solid var(--grey);
   -webkit-box-shadow: inset 0px 1px 2px var(--green);
   box-shadow: inset 0px 1px 2px var(--green);

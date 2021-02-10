@@ -29,8 +29,8 @@ class Controls extends React.Component {
 
   render() {
     const pose = this.props.activePose;
-    // const bell = new Audio('/audio/mixkit-happy-bell-alert-601.wav');
-    const bell = new Audio(tone);
+
+    const bell = new Audio(tone); 
 
     return (
       <div className={pose ? (this.alertUser(pose)) : 'controls'} >
